@@ -15,4 +15,5 @@ index is server number.
 ## Default Config
 
 socks5: localhost:10801
-http:localhost:8123
+
+http:localhost:8124
