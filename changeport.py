@@ -30,7 +30,7 @@ if __name__ == "__main__":
             # change the port number
             if inbound['tag'] == 'socks-in':
                 inbound['port'] = 10801
-            if inbound['tag'] == 'https-in':
+            if inbound['tag'] == 'http-in':
                 inbound['port'] = 8124
         new_json_file_content = json.dumps(json_file, indent=4)
         rewrite_file(new_file_name, new_json_file_content)

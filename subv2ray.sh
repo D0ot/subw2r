@@ -12,7 +12,7 @@ base64 -d -i < ${temp} | python ./vmess2json/vmess2json.py --parse_all
 
 rm ${temp}
 
-python test_servers.py
+python changeport.py
 
 sudo mkdir -p /etc/v2ray/jiyou
 
