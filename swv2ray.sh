@@ -2,9 +2,7 @@
 
 V2RAY_CONFIG_FILE="/etc/v2ray/config.json"
 
-index=$1
-
-filename="/etc/v2ray/jiyou/${index}.json"
+filename=$1
 
 sudo systemctl stop v2ray.service
 

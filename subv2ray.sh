@@ -14,10 +14,6 @@ rm ${temp}
 
 python changeport.py
 
-sudo mkdir -p /etc/v2ray/jiyou
-
-sudo cp *.json /etc/v2ray/jiyou
-
-rm *.json
+mv *.json tmp/
 
 echo "Simple Script for V2ray Subscription END"
