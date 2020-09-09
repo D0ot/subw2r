@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo echo "Simple Script for V2ray Subscription START"
+echo "Simple Script for V2ray Subscription START"
 
 export temp=$(mktemp)
 
