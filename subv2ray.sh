@@ -14,6 +14,8 @@ rm ${temp}
 
 python changeport.py
 
-mv *.json tmp/
+mkdir -p ./tmp
+
+mv *.json ./tmp
 
 echo "Simple Script for V2ray Subscription END"

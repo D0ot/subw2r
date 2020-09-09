@@ -3,7 +3,7 @@ import json
 
 # 设置你需要的本地代理端口
 socks_port = 10801
-http_port = 8124
+http_port = 10802
 
 
 def read_file(fn : str):
