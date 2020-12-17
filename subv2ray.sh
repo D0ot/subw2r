@@ -8,11 +8,11 @@ wget -O- $(cat url.txt) > ${temp}
 
 echo '==' >> ${temp}
 
-base64 -d -i < ${temp} | python ./vmess2json/vmess2json.py --parse_all
+base64 -d -i < ${temp} | python3 ./vmess2json/vmess2json.py --parse_all
 
 rm ${temp}
 
-python changeport.py
+python3 changeport.py
 
 mkdir -p ./tmp
 
