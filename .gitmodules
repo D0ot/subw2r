@@ -1,0 +1,3 @@
+[submodule "vmess2json"]
+	path = vmess2json
+	url = git@github.com:D0ot/vmess2json.git
